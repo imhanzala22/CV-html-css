@@ -1,0 +1,40 @@
+img {
+  width: 100px;
+  margin-left: 80%;
+}
+
+table,
+td {
+  border: 2px solid black;
+  text-align: center;
+  margin-left: 10%;
+}
+h1 {
+  text-align: center;
+}
+
+.intro {
+  border: 5px outset black;
+  background-color: rgb(188, 201, 206);
+  text-align: center;
+}
+.education {
+  border: 5px outset black;
+  background-color: rgb(188, 201, 206);
+  /* text-align: center; */
+}
+.experience {
+  border: 5px outset black;
+  background-color: rgb(188, 201, 206);
+  /* text-align: center; */
+}
+.objectives {
+  border: 5px outset black;
+  background-color: rgb(188, 201, 206);
+  /* text-align: center; */
+}
+.skills {
+  border: 5px outset black;
+  background-color: rgb(188, 201, 206);
+  /* text-align: center; */
+}
