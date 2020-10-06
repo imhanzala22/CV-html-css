@@ -1,40 +1,65 @@
 img {
-  width: 100px;
-  margin-left: 80%;
+  width: 80px;
+  margin-right: 10px;
+  float: right;
+  padding-top: 10px;
 }
-
+#thead {
+  color: blue;
+}
 table,
 td {
-  border: 2px solid black;
+  border: 2px solid rgb(238, 91, 91);
   text-align: center;
   margin-left: 10%;
+  color: darkblue;
+}
+
+table caption {
+  color: rgb(50, 70, 4);
+  margin: 2px;
 }
 h1 {
   text-align: center;
+  color: brown;
 }
 
 .intro {
   border: 5px outset black;
-  background-color: rgb(188, 201, 206);
+  background-color: rgb(61, 189, 178);
   text-align: center;
+  margin: 10px;
 }
 .education {
   border: 5px outset black;
-  background-color: rgb(188, 201, 206);
-  /* text-align: center; */
+  background-color: rgb(63, 163, 146);
+  margin: 10px;
 }
 .experience {
   border: 5px outset black;
-  background-color: rgb(188, 201, 206);
-  /* text-align: center; */
+  background-color: rgb(176, 80, 189);
+  margin: 10px;
 }
 .objectives {
+  margin: 10px;
   border: 5px outset black;
-  background-color: rgb(188, 201, 206);
-  /* text-align: center; */
+  background-color: rgb(129, 46, 74);
 }
 .skills {
+  margin: 10px;
   border: 5px outset black;
-  background-color: rgb(188, 201, 206);
-  /* text-align: center; */
+  background-color: rgb(131, 145, 64);
+}
+.skills li {
+  display: inline;
+}
+
+.experience li {
+  display: inline;
+}
+.objectives p {
+  margin-left: 30px;
+}
+#exp {
+  color: azure;
 }
